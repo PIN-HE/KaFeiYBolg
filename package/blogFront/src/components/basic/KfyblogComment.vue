@@ -35,8 +35,8 @@
                                 @click="openLigthBox">
                             </kfyblog-image>
                             <teleport to="#kfyblog-modal-lightbox">
-                                <kfyblog-ligth-box :images="warpImageToArry(pinnedComment.image)" :initial-index="0"
-                                    v-if="isShhowLigthBox" @close="isShhowLigthBox = false"></kfyblog-ligth-box>
+                                <kfyblog-light-box :images="warpImageToArry(pinnedComment.image)" :initial-index="0"
+                                    v-if="isShhowLigthBox" @close="isShhowLigthBox = false"></kfyblog-light-box>
                             </teleport>
                         </div>
                     </div>
@@ -102,8 +102,8 @@
                                 @click="openLigthBox">
                             </kfyblog-image>
                             <teleport to="#kfyblog-modal-lightbox">
-                                <kfyblog-ligth-box :images="warpImageToArry(item.image)" :initial-index="0"
-                                    v-if="isShhowLigthBox" @close="isShhowLigthBox = false"></kfyblog-ligth-box>
+                                <kfyblog-light-box :images="warpImageToArry(item.image)" :initial-index="0"
+                                    v-if="isShhowLigthBox" @close="isShhowLigthBox = false"></kfyblog-light-box>
                             </teleport>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ import { computed, watch, Teleport, ref, onMounted, nextTick, defineProps, onUnm
 import { IconPopup } from '@opentiny/vue-icon';
 import KfyblogCommentItem from './KfyblogCommentItem.vue';
 import KfyblogImage from '../control/KfyblogImage.vue';
-import KfyblogLigthBox from '../control/KfyblogLigthBox.vue';
+import KfyblogLightBox from '../control/KfyblogLightBox.vue';
 import { useArticleStore } from '../../store/article';
 import { useRoute } from 'vue-router';
 const route = useRoute();

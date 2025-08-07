@@ -69,7 +69,7 @@
             </div>
             <!-- 挂载全屏显示组件 -->
             <Teleport to="#kfyblog-modal-lightbox">
-                <kfyblog-ligth-box 
+                <kfyblog-light-box 
                 :initialIndex="activeImageIndex"
                 :images="items" v-if="isShowLightBox" 
                 @close="isShowLightBox = false" />
@@ -79,11 +79,10 @@
 </template>
 
 <script lang="js" setup>
-import { computed, onMounted, onUnmounted, ref, Teleport, watch,defineProps } from 'vue';
+import { computed, onMounted, onUnmounted, ref, Teleport, watch,defineProps,nextTick } from 'vue';
 import KfyblogImage from '../control/KfyblogImage.vue';
-import KfyblogLigthBox from '../control/KfyblogLigthBox.vue';
+import KfyblogLightBox from '../control/KfyblogLightBox.vue';
 import { IconChevronLeft, IconChevronRight, IconTeams } from '@opentiny/vue-icon';
-import { nextTick } from 'process';
 import { TinyModal } from '@opentiny/vue';
 const TinyIconChevronLeft = IconChevronLeft();
 const TinyIconChevronRight = IconChevronRight();

@@ -18,7 +18,7 @@
 ### 1.1 克隆仓库
 ```bash
 #您可以完全克隆本仓库
-git clone https://github.com/PIN-HE/KaFeiYBolg.git
+git clone https://github.com/PIN-HE/KaFeiYBlog.git
 cd KaFeiYBlog
 ```
 ### 1.2 安装依赖/启动前台服务

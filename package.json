@@ -1,7 +1,9 @@
 {
   "name": "blog_client",
   "private": true,
-  "workspaces":  ["package/*"],
+  "workspaces": [
+    "package/*"
+  ],
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -17,6 +19,7 @@
     "@tailwindcss/vite": "^4.1.11",
     "animate.css": "^4.1.1",
     "animejs": "^4.0.0",
+    "axios": "^1.11.0",
     "canvas-particle-effect": "^1.0.0",
     "nprogress": "^0.2.0",
     "pinia": "^3.0.3",
