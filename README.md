@@ -1,11 +1,15 @@
-# KaFeiY的博客
+# KaFeiY的博客（仿写小红书交互）
 > 版本号:v1.0.0(20250806)
 
 > 适用状态:纯前端静态博客（Mock数据模式）
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![npm version](https://img.shields.io/npm/v/react)
-
+## 演示图片
+![主页截图](/package/blogFront/src/assets/Snipaste_2025-08-07_16-20-18.png)
+![内容截图](/package/blogFront/src/assets/Snipaste_2025-08-07_16-21-19.png)
+![个人中心](/package/blogFront/src/assets/Snipaste_2025-08-07_16-21-55.png)
+![全屏查看](/package/blogFront/src/assets/Snipaste_2025-08-07_16-22-12.png)
 ## 环境要求
 - Node.js 18.x或更高版本
 - npm 9.x或更高版本
