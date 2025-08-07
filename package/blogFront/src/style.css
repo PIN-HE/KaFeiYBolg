@@ -1,0 +1,50 @@
+/* package/blogFront/src/main.css */
+@font-face {
+  font-family: HarmonyOS;
+  src: url("http://117.72.67.30:30080/public/font/HarmonyOSFont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@import "tailwindcss";
+
+@theme {
+  --color-gold-light: #FFF5D7;
+  --color-gold-dark: #D4AF37;
+  --color-user: #3B82F6;
+  --color-user-light: #60A5FA;
+  --color-user-font: #FFFFFF;
+  --color-vip: #F59E0B;
+  --color-vip-light: #D97706;
+  --color-vip-font: #4B3621;
+  --color-svip: #8B5CF6;
+  --color-svip-light: #7C3AED;
+  --color-svip-font: #FFFFFF;
+  --color-guest: #E5E7EB;
+  --color-guest-light: #CBD5E1;
+  --color-guest-font: #6B7280;
+  --font-harmonyos: "HarmonyOS", sans-serif;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+}
+
+
+@layer utilities {
+  .text-svip-shadow {
+    text-shadow: 0 0 8px rgba(106, 58, 201, 0.6);
+  }
+
+  .badge-pulse {
+    animation: pulse 2s infinite;
+  }
+}

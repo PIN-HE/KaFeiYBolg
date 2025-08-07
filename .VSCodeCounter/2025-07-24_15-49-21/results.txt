@@ -1,0 +1,116 @@
+Date : 2025-07-24 15:49:21
+Directory : d:\kafeiy_blog\blog_client
+Total : 55 files,  14452 codes, 167 comments, 289 blanks, all 14908 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          5 |     10,362 |          0 |          4 |     10,366 |
+| vue        |         23 |      1,869 |        105 |        197 |      2,171 |
+| CSS        |          2 |      1,351 |          2 |          8 |      1,361 |
+| JavaScript |         17 |        591 |         34 |         54 |        679 |
+| HTML       |          4 |        270 |          6 |         16 |        292 |
+| YAML       |          1 |          4 |         19 |          7 |         30 |
+| Markdown   |          1 |          3 |          0 |          3 |          6 |
+| Properties |          1 |          1 |          1 |          0 |          2 |
+| XML        |          1 |          1 |          0 |          0 |          1 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                         | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                            |         55 |     14,452 |        167 |        289 |     14,908 |
+| . (Files)                                                                                    |          8 |      9,052 |         26 |         25 |      9,103 |
+| .vercel                                                                                      |          1 |          1 |          0 |          0 |          1 |
+| package                                                                                      |         44 |      5,379 |        137 |        260 |      5,776 |
+| package\blogAdmin                                                                            |          4 |         38 |          0 |          7 |         45 |
+| package\blogAdmin (Files)                                                                    |          2 |         27 |          0 |          2 |         29 |
+| package\blogAdmin\src                                                                        |          2 |         11 |          0 |          5 |         16 |
+| package\blogFront                                                                            |         37 |      5,251 |        119 |        237 |      5,607 |
+| package\blogFront (Files)                                                                    |          6 |      1,659 |          3 |          6 |      1,668 |
+| package\blogFront\src                                                                        |         31 |      3,592 |        116 |        231 |      3,939 |
+| package\blogFront\src (Files)                                                                |          4 |      1,389 |          2 |         20 |      1,411 |
+| package\blogFront\src\api                                                                    |          1 |         10 |          1 |          0 |         11 |
+| package\blogFront\src\components                                                             |         17 |      1,453 |        103 |        140 |      1,696 |
+| package\blogFront\src\components (Files)                                                     |          1 |        540 |         28 |         45 |        613 |
+| package\blogFront\src\components\basic                                                       |          5 |        233 |          6 |         31 |        270 |
+| package\blogFront\src\components\card                                                        |          2 |        139 |         25 |         19 |        183 |
+| package\blogFront\src\components\control                                                     |          1 |         25 |         10 |          2 |         37 |
+| package\blogFront\src\components\dropdown                                                    |          2 |        230 |         28 |         22 |        280 |
+| package\blogFront\src\components\layout                                                      |          3 |        177 |          6 |         10 |        193 |
+| package\blogFront\src\components\user_info                                                   |          3 |        109 |          0 |         11 |        120 |
+| package\blogFront\src\router                                                                 |          1 |         54 |          0 |          7 |         61 |
+| package\blogFront\src\script                                                                 |          1 |         29 |          0 |          3 |         32 |
+| package\blogFront\src\store                                                                  |          3 |        262 |          8 |         12 |        282 |
+| package\blogFront\src\views                                                                  |          4 |        395 |          2 |         49 |        446 |
+| package\blogFront\src\views (Files)                                                          |          1 |         31 |          0 |          5 |         36 |
+| package\blogFront\src\views\user                                                             |          3 |        364 |          2 |         44 |        410 |
+| package\shard                                                                                |          3 |         90 |         18 |         16 |        124 |
+| package\shard\utils                                                                          |          3 |         90 |         18 |         16 |        124 |
+| public                                                                                       |          1 |          1 |          0 |          0 |          1 |
+| share                                                                                        |          1 |         19 |          4 |          4 |         27 |
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                     | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\kafeiy_blog\blog_client\.env                                                              | Properties |          1 |          1 |          0 |          2 |
+| d:\kafeiy_blog\blog_client\.vercel\project.json                                              | JSON       |          1 |          0 |          0 |          1 |
+| d:\kafeiy_blog\blog_client\123.html                                                          | HTML       |        232 |          6 |         11 |        249 |
+| d:\kafeiy_blog\blog_client\456.html                                                          | HTML       |         11 |          0 |          1 |         12 |
+| d:\kafeiy_blog\blog_client\README.md                                                         | Markdown   |          3 |          0 |          3 |          6 |
+| d:\kafeiy_blog\blog_client\package-lock.json                                                 | JSON       |      8,726 |          0 |          1 |      8,727 |
+| d:\kafeiy_blog\blog_client\package.json                                                      | JSON       |         39 |          0 |          1 |         40 |
+| d:\kafeiy_blog\blog_client\package\blogAdmin\index.html                                      | HTML       |         12 |          0 |          1 |         13 |
+| d:\kafeiy_blog\blog_client\package\blogAdmin\src\App.vue                                     | vue        |          7 |          0 |          4 |         11 |
+| d:\kafeiy_blog\blog_client\package\blogAdmin\src\main.js                                     | JavaScript |          4 |          0 |          1 |          5 |
+| d:\kafeiy_blog\blog_client\package\blogAdmin\vite.config.js                                  | JavaScript |         15 |          0 |          1 |         16 |
+| d:\kafeiy_blog\blog_client\package\blogFront\index.html                                      | HTML       |         15 |          0 |          3 |         18 |
+| d:\kafeiy_blog\blog_client\package\blogFront\package-lock.json                               | JSON       |      1,578 |          0 |          1 |      1,579 |
+| d:\kafeiy_blog\blog_client\package\blogFront\package.json                                    | JSON       |         18 |          0 |          1 |         19 |
+| d:\kafeiy_blog\blog_client\package\blogFront\postcss.config.js                               | JavaScript |          6 |          1 |          0 |          7 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\App.vue                                     | vue        |         14 |          0 |          4 |         18 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\api\api.config.js                           | JavaScript |         10 |          1 |          0 |         11 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\KfyblogWaterfall.vue             | vue        |        540 |         28 |         45 |        613 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\basic\KfyTips.vue                | vue        |         69 |          0 |         12 |         81 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\basic\KfyblogExplore.vue         | vue        |         40 |          0 |          3 |         43 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\basic\KfyblogImage.vue           | vue        |          1 |          6 |          0 |          7 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\basic\button.vue                 | vue        |         36 |          0 |          5 |         41 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\basic\input.vue                  | vue        |         87 |          0 |         11 |         98 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\card\KfyblogCarousel.vue         | vue        |          8 |         12 |          5 |         25 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\card\KfyblogModal.vue            | vue        |        131 |         13 |         14 |        158 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\control\KfyblogVideo.vue         | vue        |         25 |         10 |          2 |         37 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\dropdown\KfyblogDropdown.vue     | vue        |        171 |         15 |         17 |        203 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\dropdown\KfyblogDropdownItem.vue | vue        |         59 |         13 |          5 |         77 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\layout\KfyblogAsideActions.vue   | vue        |        130 |          6 |          6 |        142 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\layout\KfyblogAsideFooter.vue    | vue        |         10 |          0 |          0 |         10 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\layout\KfyblogMenuHeader.vue     | vue        |         37 |          0 |          4 |         41 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\user_info\guest.vue              | vue        |         44 |          0 |          4 |         48 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\user_info\user.vue               | vue        |         47 |          0 |          4 |         51 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\components\user_info\vip.vue                | vue        |         18 |          0 |          3 |         21 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\main.js                                     | JavaScript |         24 |          0 |          8 |         32 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\output.css                                  | CSS        |      1,310 |          1 |          1 |      1,312 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\router\index.js                             | JavaScript |         54 |          0 |          7 |         61 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\script\guest_role.js                        | JavaScript |         29 |          0 |          3 |         32 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\store\article.js                            | JavaScript |         14 |          0 |          1 |         15 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\store\identity.js                           | JavaScript |         91 |          3 |          5 |         99 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\store\user.js                               | JavaScript |        157 |          5 |          6 |        168 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\style.css                                   | CSS        |         41 |          1 |          7 |         49 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\views\index.vue                             | vue        |         31 |          0 |          5 |         36 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\views\user\auth.vue                         | vue        |         66 |          0 |          8 |         74 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\views\user\login.vue                        | vue        |        205 |          1 |         25 |        231 |
+| d:\kafeiy_blog\blog_client\package\blogFront\src\views\user\register.vue                     | vue        |         93 |          1 |         11 |        105 |
+| d:\kafeiy_blog\blog_client\package\blogFront\tailwind.config.js                              | JavaScript |         19 |          1 |          0 |         20 |
+| d:\kafeiy_blog\blog_client\package\blogFront\vite.config.js                                  | JavaScript |         23 |          1 |          1 |         25 |
+| d:\kafeiy_blog\blog_client\package\shard\utils\nprogress.js                                  | JavaScript |         16 |          3 |          4 |         23 |
+| d:\kafeiy_blog\blog_client\package\shard\utils\portal.js                                     | JavaScript |         13 |          3 |          3 |         19 |
+| d:\kafeiy_blog\blog_client\package\shard\utils\request.js                                    | JavaScript |         61 |         12 |          9 |         82 |
+| d:\kafeiy_blog\blog_client\public\vite.svg                                                   | XML        |          1 |          0 |          0 |          1 |
+| d:\kafeiy_blog\blog_client\qodana.yaml                                                       | YAML       |          4 |         19 |          7 |         30 |
+| d:\kafeiy_blog\blog_client\share\HeartBeat.confg.js                                          | JavaScript |         19 |          4 |          4 |         27 |
+| d:\kafeiy_blog\blog_client\vite.config.js                                                    | JavaScript |         36 |          0 |          1 |         37 |
+| Total                                                                                        |            |     14,452 |        167 |        289 |     14,908 |
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
